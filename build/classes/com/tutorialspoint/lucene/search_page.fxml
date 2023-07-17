@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tutorialspoint.lucene.Search_pageController">
+   <children>
+      <TextField fx:id="txt_search" layoutX="159.0" layoutY="98.0" prefHeight="44.0" prefWidth="328.0" />
+      <Button layoutX="232.0" layoutY="175.0" mnemonicParsing="false" onAction="#search_key" prefHeight="44.0" prefWidth="111.0" text="Button" />
+   </children>
+</AnchorPane>
